@@ -114,4 +114,17 @@ img {
   margin-left: 5%;
 }
 
-
+@media only screen and (max-width: 600px) {
+    .mainContent {
+        flex-direction: column;
+        width: 100%;
+    }
+    .description {
+        width: 100%;
+    }
+    .pictures {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+  }
